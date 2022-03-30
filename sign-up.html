@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h1 class="h1signup">Sign Up</h1>
+            <h2 class="h2signup">Let's get you set up</h2>
+            <p class="psignup">It should only take a couple of minutes <br> to create your account</p>
+        </div>
+        <div class="right">
+            <form>
+                <input type="text" placeholder="First name" class="name" required>
+                <input type="text" placeholder="Last name" class="name" required>
+                <input type="email" placeholder="Email" class="form-control" required>
+                <input type="password" placeholder="Password" class="form-control" required>
+                <input type="text" placeholder="Phone Number" class="form-control">
+                <input type="date" placeholder="Date of Birth" class="form-control" required>
+                <input type="text" placeholder="Weight (Kg)" class="poidtaille">
+                <input type="text" placeholder="Height (cm)" class="poidtaille">
+                <div class="divselect">
+                    <select class="select" style="width:360px" required>
+                        <option value="" disabled selected>Country</option>
+                        <option value="Lebanon">Lebanon</option> 
+                        <option value="Greece">Greece</option>
+                        <option value="France">France</option> 
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option> 
+                        <option value="Canada">Canada</option>
+                        <option value="UAE">UAE</option> 
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="USA">USA</option> 
+                        <option value="Mexico">Mexico</option>
+                        <option value="Switzerland">Switzerland</option> 
+                        <option value="Germany">Germany</option>
+                        <option value="Belgica">Belgica</option> 
+                        <option value="Russie">Russie</option>
+                        <option value="Portugual">Portugual</option> 
+                        <option value="Bresil">Bresil</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                    <select class="select" style="width:360px" required>
+                        <option value="" disabled selected>Gender</option>
+                        <option value="Male">Male</option> 
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <br><div class="tandc"><input type="checkbox"  value="1" required>  Agree with Terms and Conditions</div>
+                <div class="divcreate"><button type="submit" class="create">Create Account</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
